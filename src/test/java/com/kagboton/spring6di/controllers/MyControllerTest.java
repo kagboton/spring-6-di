@@ -9,6 +9,6 @@ class MyControllerTest {
     @Test
     void sayHello() {
         MyController myController = new MyController();
-        myController.sayHello();
+        System.out.println(myController.sayHello());
     }
 }
