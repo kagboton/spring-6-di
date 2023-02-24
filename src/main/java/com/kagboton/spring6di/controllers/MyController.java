@@ -9,6 +9,10 @@ public class MyController {
 
     private final GreetingService greetingService;
 
+    public MyController(GreetingService greetingService) {
+        this.greetingService = greetingService;
+    }
+
     public MyController() {
         this.greetingService = new GreetingServiceImpl();
     }
